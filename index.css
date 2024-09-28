@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1bfe/0656/5ce73b370dc5f157ffb73c5df166e15b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DbXyBEcFN63x7KLVsCh7NXzljRlcXEAQJ0xyDBbCQyGNT9hAPVT2PlafWKwyPrxbO4tp97FVsvTf7lWt0X~gc19EnwVx1M7BmhVOMCJZEnjgvIUVbu0gbFLlg37HIFoqMEg5~clBF0Fu-KUy1S9wGhn1hq1bJTepq6xADFxnQnorfoHC5EOYEKnYwTokvsO-iXgVYFLgfL1GLdBi~Uz2UyAwbRAExR7mPPSB1IbGiDmtl23CmOZGx36PhQ7bms3UMVZTHxVfVQgo9ti6d1bCt8658pOB4k~IMAS~uRxrajCbWoAXkJ3eUgzS-BBwm3I5YJr1yv6u~2jm7eGjgqN54g__");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.hero-content {
+  color: white;
+  padding: 20px;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.startup-list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.startup-list th,
+.startup-list td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
